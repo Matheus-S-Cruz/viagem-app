@@ -3,7 +3,7 @@
 Durante a aula 5, o aplicativo de viagens da aula passada foi atualizada, antes sua função era apenas listar os 3 antigos destinos e adicionar quando o usuário utilizar tal função. Segundo as regras de negócio, foi possível alterar a estrutura do projeto, criando pastas para organizar os arquivos, e também foram adicionados novos destinos, assim como uma funcionalidade para calcular o valor da viagem.
 
 ### Estrutura Inicial do Aplicativo de Viagens
-Nesta aula, abordamos a criação da estrutura inicial do nosso aplicativo de viagens. Utilizamos React para desenvolver uma interface amigável que permite ao usuário selecionar destinos, calcular distâncias e custos, e visualizar o subtotal da viagem.
+Nesta aula, modificamos um pouca da estrutura inicial do nosso aplicativo de viagens. Utilizamos React para desenvolver uma interface que permite ao usuário selecionar destinos, calcular distâncias e custos, e visualizar o subtotal da viagem.
 
 ### Regras de Negócio
 1.Destinos Pré-Cadastrados: Foram incluídos 10 destinos iniciais no aplicativo, cada um com sua descrição e distância a partir do Brasil.
