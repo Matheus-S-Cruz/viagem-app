@@ -6,9 +6,9 @@ Durante a aula 5, o aplicativo de viagens da aula passada foi atualizada, antes 
 Nesta aula, modificamos um pouca da estrutura inicial do nosso aplicativo de viagens. Utilizamos React para desenvolver uma interface que permite ao usuário selecionar destinos, calcular distâncias e custos, e visualizar o subtotal da viagem.
 
 ### Regras de Negócio
-1.Destinos Pré-Cadastrados: Foram incluídos 10 destinos iniciais no aplicativo, cada um com sua descrição e distância a partir do Brasil.
-2. Cálculo de Distância: Se a distância for superior a 2000 km, são necessários dois voos.
-3.Custos de Viagem: 
+1.Destinos Pré-Cadastrados: Foram incluídos 10 destinos iniciais no aplicativo, cada um com sua descrição e distância a partir do Brasil.<br>
+2. Cálculo de Distância: Se a distância for superior a 2000 km, são necessários dois voos.<br>
+3.Custos de Viagem: <br>
      - Inferiores a 2 meses: R$1500 (ida e volta).<br>
      - Iguais ou superiores a 2 meses: R$700 (ida e volta).<br>
      - Distâncias acima de 2000 km: cada km adicional custa R$1.<br>
