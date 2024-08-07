@@ -9,12 +9,12 @@ Nesta aula, modificamos um pouca da estrutura inicial do nosso aplicativo de via
 1.Destinos Pré-Cadastrados: Foram incluídos 10 destinos iniciais no aplicativo, cada um com sua descrição e distância a partir do Brasil.
 2. Cálculo de Distância: Se a distância for superior a 2000 km, são necessários dois voos.
 3.Custos de Viagem: 
-     - Inferiores a 2 meses: R$1500 (ida e volta).
-     - Iguais ou superiores a 2 meses: R$700 (ida e volta).
-     - Distâncias acima de 2000 km: cada km adicional custa R$1.
-     - Padrão: R$400 por semana.
-     - Luxo: R$700 por semana.
-     - Participantes adicionais: aumentam o custo da estadia em 25% por participante.
+     - Inferiores a 2 meses: R$1500 (ida e volta).<br>
+     - Iguais ou superiores a 2 meses: R$700 (ida e volta).<br>
+     - Distâncias acima de 2000 km: cada km adicional custa R$1.<br>
+     - Padrão: R$400 por semana.<br>
+     - Luxo: R$700 por semana.<br>
+     - Participantes adicionais: aumentam o custo da estadia em 25% por participante.<br>
 
 ### Lógica do Cálculo de Distância e Custos
 A lógica implementada calcula automaticamente a distância do destino escolhido. Com base nessa distância, calcula o custo dos voos. O custo da estadia é calculado com base no tipo de acomodação que foi escolhida e no número de semanas e participantes. Todos os custos são somados para fornecer um subtotal imediato ao usuário, através do useEffect.
